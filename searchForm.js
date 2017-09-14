@@ -5,6 +5,7 @@
 import React from 'react';
 import { Form } from 'antd';
 import FormItem from "antd/es/form/FormItem.d";
+import Row from "antd/es/grid/row.d";
 
 class SearchForm extends React.Component{
     handleSubmit = (e) => {
@@ -13,9 +14,38 @@ class SearchForm extends React.Component{
     }
     render(){
         return <Form>
-            <FormItem>
+            <Row>
+                <FormItem>
 
-            </FormItem>
+                </FormItem>
+                <FormItem>
+
+                </FormItem>
+            </Row>
+            <Row>
+                <FormItem>
+
+                </FormItem>
+                <FormItem>
+
+                </FormItem>
+            </Row>
+            <Row>
+                <FormItem>
+
+                </FormItem>
+                <FormItem>
+
+                </FormItem>
+            </Row>
+            <Row>
+                <FormItem>
+
+                </FormItem>
+                <FormItem>
+
+                </FormItem>
+            </Row>
         </Form>
     }
 }
