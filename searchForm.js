@@ -4,16 +4,16 @@
 
 import React from 'react';
 import { Form } from 'antd';
-import FormItem from "antd/es/form/FormItem.d";
+const FormItem = Form.FormItem;
 import Row from "antd/es/grid/row.d";
 
-class SearchForm extends React.Component{
+export class SearchForm extends React.Component{
     handleSubmit = (e) => {
         e.preventDefault();
 
     }
     render(){
-        return <Form>
+        return (<Form>
             <Row>
                 <FormItem>
 
@@ -46,6 +46,6 @@ class SearchForm extends React.Component{
 
                 </FormItem>
             </Row>
-        </Form>
+        </Form>)
     }
 }
