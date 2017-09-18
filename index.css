@@ -6,3 +6,6 @@ html, body, #root {
 .search-form{
   padding: 24px;
 }
+.exportFile{
+  font-size: 1.5em;
+}
